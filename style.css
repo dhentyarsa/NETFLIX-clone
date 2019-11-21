@@ -1,0 +1,297 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.section-1 .bg-image{
+    margin: 0px;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+}
+
+.section-1{
+    background-image: url("hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 700px
+
+}
+
+.header{
+    display: flex;
+    /* position: fixed; */
+    height: 80px;
+    max-width: 1920px;
+    justify-content: space-between;
+    /* top: 0px;
+    left: 0px;
+    right: 0px; */
+}
+
+.NetflixLogo{
+    height: 115px;
+    width: auto;
+    margin-top: -4%;
+    padding-left: 37.5px;
+}
+
+.sign-in button{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    float: left;
+    display: block;
+    padding: 7px 17px 7px 17px;
+    font-size: 16px;
+    margin: 8px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    margin-top: 28px;
+    margin-right: 73px;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.welcome-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.timeline-text{
+    font-size: 26px;
+    color: gray;
+    margin-top: -35px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    font-size: 26px;
+}
+.green{
+    font-size: 26px;
+    color: limegreen;
+    float: left;
+    width: 33.33%;
+    font-weight: bold;
+}
+.timeline-bar{
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #00d65f), color-stop(50%, #308234), color-stop(50%, #3f3f3f), color-stop(85%, #3f3f3f), to(rgba(63, 63, 63, 0)));
+    background: -webkit-linear-gradient(left, #00d65f 10%, #308234 50%, #3f3f3f 50%, #3f3f3f 85%, rgba(63, 63, 63, 0) 100%);
+    background: -moz- oldlinear-gradient(left, #00d65f 10%, #308234 50%, #3f3f3f 50%, #3f3f3f 85%, rgba(63, 63, 63, 0) 100%);
+    background: -o-linear-gradient(left, #00d65f 10%, #308234 50%, #3f3f3f 50%, #3f3f3f 85%, rgba(63, 63, 63, 0) 100%);
+    background: linear-gradient(to right, #00d65f 10%, #308234 50%, #3f3f3f 50%, #3f3f3f 85%, rgba(63, 63, 63, 0) 100%);
+    width: 80%;
+    height: 1.5em;
+    -webkit-border-radius: 0.75em 0 0 0.75em;
+    -moz-border-radius: 0.75em 0 0 0.75em;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.timeline-bar:before {
+    left: 50%;
+}
+
+.timeline-bar:after {
+    left: 91.25%;
+}
+
+.timeline-bar:after, .timeline-bar:before {
+    content: '';
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: white;
+    -webkit-border-radius: 0.75em;
+    -moz-border-radius: 0.75em;
+    border-radius: 40px;
+}
+
+.welcome-text-2{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    font-size: 26px;
+    width: 750px;
+    padding-left: 30%;
+    padding-right: ;
+}
+
+.welcome-button button{
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 44px;
+    color: white;
+    font-size: 16px;
+}
+
+.red{
+    background: red;
+    border: none;
+}
+
+.transparent{
+    background-color: transparent;
+    border: 0.5px solid white;
+}
+
+.section-2{
+    margin-top: 200px;
+    color: white;
+    border-top: 10px solid rgb(36, 34, 34);
+    border-bottom: 10px solid rgb(36, 34, 34);
+    height: 500px;
+}
+
+.descript-1{
+    color: white;
+    font-size: 50px;
+    height: 90px;
+    width: 550px;
+    margin-left: 200px;
+    padding-top: 100px;
+    font-weight: 700;
+    
+}
+
+.descript-2{
+    color: white;
+    font-size: 26px;
+    height: 90px;
+    width: 550px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+
+}
+
+.tryfree30 button{
+    position: relative;
+    margin-left: 200px;
+    width: 300px;
+    height: 44px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.tvpic{
+    position: relative;
+    margin-left: 50%;
+    margin-top: -23.5%;
+    background-repeat: no-repeat;
+}
+
+.section-3{
+    color: white;
+    border-bottom: 10px solid rgb(36, 34, 34);
+    height: 500px;
+}
+
+.descript2-1{
+    color: white;
+    font-size: 50px;
+    height: 90px;
+    width: 550px;
+    margin-left: 800px;
+    padding-top: 100px;
+    font-weight: 700;
+    
+}
+
+.descript2-2{
+    color: white;
+    font-size: 26px;
+    height: 66px;
+    width: 547px;
+    margin-left: 800px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+}
+
+.tryfree30-2 button{
+    position: relative;
+    margin-left: 800px;
+    width: 300px;
+    height: 44px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.phonepic{
+    position: relative;
+    margin-left: 5%;
+    margin-top: -26%;
+    background-repeat: no-repeat;
+}
+
+.section-4{
+    color: white;
+    border-bottom: 10px solid rgb(36, 34, 34);
+    height: 500px;
+}
+
+.descript3-1{
+    color: white;
+    font-size: 50px;
+    height: 90px;
+    width: 550px;
+    margin-left: 200px;
+    padding-top: 100px;
+    font-weight: 700;
+    
+}
+
+.descript3-2{
+    color: white;
+    font-size: 26px;
+    height: 90px;
+    width: 550px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+
+}
+
+.tryfree30-3 button{
+    position: relative;
+    margin-left: 200px;
+    width: 300px;
+    height: 44px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.macpic{
+    position: relative;
+    margin-left: 50%;
+    margin-top: -23.5%;
+    background-repeat: no-repeat;
+}
